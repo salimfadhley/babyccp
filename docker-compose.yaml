@@ -1,0 +1,37 @@
+version: '3.7'
+
+x-base-dev: &base-dev
+  restart: on-failure
+  volumes:
+    - ./src:/src:rw
+    - .:/project:rw
+
+services:
+
+  site:
+    <<: *base-dev
+    build:
+      context: .
+      target: node_base
+    working_dir: /src/wallboard/
+    entrypoint: /usr/local/bin/yarn start
+    ports:
+      - "3000:3000"
+
+  node:
+    <<: *base-dev
+    build:
+      context: .
+      target: node_base
+    working_dir: /src/
+    entrypoint: /usr/local/bin/node
+
+  typescript:
+    build:
+      context: .
+      target: node_base
+    working_dir: /src/typescript_playground/
+    entrypoint: /usr/local/bin/ts-node
+
+
+
