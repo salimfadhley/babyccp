@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-import {Counter} from './Counter';
 import './App.css';
 
 
@@ -35,6 +33,7 @@ const App: React.FC = () => {
         <div className="content">
             <h1>Welcome to Big Smoke Comedy</h1>
             <p>London's most central comedy club, above <a href="http://www.nellofolddrury.com/">The Nell of Old Drury</a>, one of London's oldest pubs.</p>
+            <p>We run events every Thursday, and the Second Monday of every month. We present eight fiercely independent stand-up comedians. For our final act we invite all 8 performers back on stage for a one-night-only improvised performance.</p>
             <p>We are still working on our website, but in the meantime, <a href="https://www.facebook.com/BigSmokeComedy/">visit our page on Facebook</a>.</p>
         </div>
 
