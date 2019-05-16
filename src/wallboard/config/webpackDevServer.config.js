@@ -70,8 +70,8 @@ module.exports = function(proxy, allowedHost) {
     // https://github.com/facebook/create-react-app/issues/1065
     watchOptions: {
       ignored: ignoredFiles(paths.appSrc),
-      aggregateTimeout: 300,
-      poll: 1000
+      aggregateTimeout: 100,
+      poll: 250
     },
     // Enable HTTPS if the HTTPS environment variable is set to 'true'
     https: protocol === 'https',

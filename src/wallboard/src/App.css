@@ -32,4 +32,47 @@
   }
 }
 
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.panels {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 95%;
+  padding: 20px;
+}
+
+.item {
+  width: 100%;
+  background: green;
+  grid-row-end: span 1;
+  padding: 10px;
+  border-spacing: 10px;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: stretch;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 30% 30% 30%;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  height: auto;
+  z-index: 0;
+}
 

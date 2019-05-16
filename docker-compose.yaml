@@ -17,20 +17,20 @@ services:
     ports:
       - "3000:3000"
 
-  builder:
-    <<: *base-dev
-    build:
-      context: .
-      target: node_builder
-
-  web_server:
-    image: "salimfadhley/bigsmoke_web_site:latest"
-    build:
-      context: .
-      target: web_server
-    ports:
-      - "80:80"
-      - "8080:8080"
+#  builder:
+#    <<: *base-dev
+#    build:
+#      context: .
+#      target: node_builder
+#
+#  web_server:
+#    image: "salimfadhley/bigsmoke_web_site:latest"
+#    build:
+#      context: .
+#      target: web_server
+#    ports:
+#      - "80:80"
+#      - "8080:8080"
 
 
 
