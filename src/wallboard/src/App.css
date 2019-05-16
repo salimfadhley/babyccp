@@ -43,18 +43,19 @@
 
 .panels {
   position: relative;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 95%;
+  width: 100%;
   padding: 20px;
 }
 
 .item {
   width: 100%;
-  background: green;
+  background: rgba(0,0,0,.5);
   grid-row-end: span 1;
   padding: 10px;
   border-spacing: 10px;
+  color: white;
+  border-radius: 10px;
+  margin: 5px;
 }
 
 .container {

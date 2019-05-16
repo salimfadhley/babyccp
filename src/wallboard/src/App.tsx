@@ -15,7 +15,7 @@ const App: React.FC = (props) => {
             <div className="container">
                 <div className="item">AAA</div>
                 <div className="item">BBB</div>
-                <div className="item">CCC</div>
+                <div className="item"><p>Lorem ipsum dolor sit amet, qui debitis meliore efficiendi an, sed saperet theophrastus cu. </p></div>
                 <div className="item">DDD</div>
                 <div className="item">EEE</div>
             </div>
