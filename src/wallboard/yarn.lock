@@ -3091,6 +3091,11 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+crocks@^0.11.1:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/crocks/-/crocks-0.11.1.tgz#58a59e0a565258ece048540f6f287525e129f08c"
+  integrity sha512-MSaMHvzKugK4iX97VzUty+bdhDN+3MVfGrllye/P7qKGeHnRU7/ich+j0YzIN3SP4cEIFnQplTuAat0c1pLiCg==
+
 cross-spawn@6.0.5, cross-spawn@^6.0.0, cross-spawn@^6.0.5:
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-6.0.5.tgz#4a5ec7c64dfae22c3a14124dbacdee846d80cbc4"
@@ -3376,6 +3381,16 @@ data-urls@^1.0.0, data-urls@^1.1.0:
     abab "^2.0.0"
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
+
+dataclass@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/dataclass/-/dataclass-1.1.1.tgz#2f5ad71b415c1b0741d33eaa1466e6b6f8142aef"
+  integrity sha512-Ya7VusasSx/fusGpTaefOSuD2xmUGAr8akBKUxMvd3Lsjj1IlacTFtGm3NGwWLVRRzDLRSE71hP0eZsDxVu3jQ==
+
+date-fns@^1.30.1:
+  version "1.30.1"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-1.30.1.tgz#2e71bf0b119153dbb4cc4e88d9ea5acfb50dc05c"
+  integrity sha512-hBSVCvSmWC+QypYObzwGOd9wqdDpOt+0wl0KbU+R+uuZBS1jN8VsD1ss3irQDknRj5NvxiTF6oj/nDRnN/UQNw==
 
 date-now@^0.1.4:
   version "0.1.4"
@@ -10284,6 +10299,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+types@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/types/-/types-0.1.0.tgz#21e7cc70bef558e78cda238c84cd3e440b33a886"
+  integrity sha1-IefMcL71WOeM2iOMhM0+RAszqIY=
 
 typescript@3.4.5:
   version "3.4.5"
