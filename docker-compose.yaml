@@ -9,30 +9,9 @@ x-base-dev: &base-dev
 services:
   dev:
     <<: *base-dev
-    build:
-      context: .
-      target: node_base
-    working_dir: /src/wallboard/
+    image: salimfadhley/node-typescript-base
+    working_dir: /src/big_smoke_web_site/
     entrypoint: /usr/local/bin/yarn start
     ports:
       - "3000:3000"
-
-#  builder:
-#    <<: *base-dev
-#    build:
-#      context: .
-#      target: node_builder
-#
-#  web_server:
-#    image: "salimfadhley/bigsmoke_web_site:latest"
-#    build:
-#      context: .
-#      target: web_server
-#    ports:
-#      - "80:80"
-#      - "8080:8080"
-
-
-
-
 
