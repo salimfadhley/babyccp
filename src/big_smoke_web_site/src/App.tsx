@@ -7,7 +7,7 @@ const App: React.FC = (props) => {
     return (
     <div className="App">
 
-        <video autoPlay muted loop id="myVideo">
+        <video height="100%" autoPlay muted loop id="myVideo">
             <source src="bs_montage.mp4" type="video/mp4" />
         </video>
 
