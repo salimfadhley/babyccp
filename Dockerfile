@@ -6,6 +6,6 @@ RUN npm install
 RUN npm build
 
 FROM httpd:latest AS web_server
-COPY ./src/big_smoke_web_site/build /usr/local/apache2/htdocs/
+COPY ./src/babyccp/build /usr/local/apache2/htdocs/
 EXPOSE 80
 EXPOSE 8080
