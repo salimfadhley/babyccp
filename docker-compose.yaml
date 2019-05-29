@@ -10,17 +10,17 @@ services:
   dev:
     <<: *base-dev
     image: salimfadhley/node-typescript-base:latest
-    working_dir: /src/big_smoke_web_site/
+    working_dir: /src/babyccp/
     entrypoint: /usr/local/bin/yarn start
     ports:
       - "3000:3000"
 
-  web__server:
-    <<: *base-dev
-    image: salimfadhley/bigsmoke_web_site:latest
-    build:
-      context: .
-      target: web_server
-    ports:
-      - "80:80"
-
+#  web_server:
+#    <<: *base-dev
+#    image: salimfadhley/bigsmoke_web_site:latest
+#    build:
+#      context: .
+#      target: web_server
+#    ports:
+#      - "80:80"
+#

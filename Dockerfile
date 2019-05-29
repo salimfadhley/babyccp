@@ -1,7 +1,7 @@
 FROM salimfadhley/node-typescript-base AS node_builder
-COPY /src /src
+COPY ./src /src
 WORKDIR /src/babyccp
-RUN rm -rf ./src/wallboard/build
+RUN rm -rf /src/babyccp/build
 RUN npm install
 RUN npm build
 
